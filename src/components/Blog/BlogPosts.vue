@@ -23,17 +23,46 @@ export default {
 
 <style lang="scss" scoped>
 .post-box {
-  padding: 15px;
+  padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px #ddd;
   position: relative;
+  text-align: left;
   .post-views {
     position: absolute;
     top: 5px;
     right: 5px;
-    background-color: red;
+    background-color: #9700fe;
     border-radius: 4px;
     padding: 1px 5px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  .post-title {
+    color: #777;
+  }
+  .post-date {
+    display: block;
+    padding: 0 0 5px;
+    color: #888;
+    font-size: 14px;
+  }
+  .post-content {
+    line-height: 1.8;
+    color: #666;
+  }
+  .post-author {
+    background-color: #607d8b;
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  .post-category {
+    background-color: rebeccapurple;
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: #fff;
   }
 }
 </style>
