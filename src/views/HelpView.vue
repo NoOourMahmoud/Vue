@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="our-help">
     <h1>{{ pageName }}</h1>
     <p>{{ pageDisc }}</p>
   </div>
@@ -9,10 +9,10 @@
 export default {
   data() {
     return {
-      pageName: "About Us",
-      pageDisc: "This is about us page",
+      pageName: "Help",
+      pageDisc: "This is help page",
     };
   },
-  name: "AboutView",
+  name: "HelpView",
 };
 </script>
